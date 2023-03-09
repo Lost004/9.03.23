@@ -1,0 +1,111 @@
+@importurl url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+:root{
+    --mainColor:#000;
+    --mainFont:'Montserrat',sans-serif;
+}
+.container{
+    max-width:1400px;
+    margin: auto;
+}
+img{
+    width: 130px;
+    height: 130px;
+}
+header nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+header nav a{
+    font: bold 20px var(--mainFont);
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+section div p{
+    color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+a:hover{
+    color: aqua;
+}
+hr{
+    width: 96%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7d0e2;
+    border: none;
+    border-style: outset;
+}
+section div h2{
+    font: bold 19px var(--mainFont);
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+}
+.article-txt{
+    font: bold 17px var(--mainFont);
+}
+.img-body{
+    display: flex;
+    justify-content: space-around;
+}
+.article-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.cost {
+    margin-left: 20px;
+    color: green;
+    font-size: 16px;
+}
+
+span {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+
+.pp {
+    font-size: 16px;
+}
+.article-text {
+    background-color: #b7d0e2;
+    border-style: solid;
+    border-width :200px;
+    border-top: none;
+}
+
+.menuline {
+    width: 80%;
+    border: none;
+    background-color: rgb(144, 138, 138);
+    border-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#oclock {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+
+#location {
+    color: rgb(144, 138, 138);
+    font-size: 12px;
+}
+.fa-star{
+    color: gold;
+}
